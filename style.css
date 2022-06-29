@@ -8,11 +8,118 @@
     text-decoration: none;
 }
 
+:root {
+    --red: #ff3838;
+}
+
 html {
-    /* overflow-x: hidden; */
+     overflow-x: hidden;
 
 }
 
 body {
     background: #f7f7f7;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: royalblue; 
+  padding: 2rem 9%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0.1);
+}
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #666;
+}
+header .logo i {
+    padding-right: .5rem;
+    color: var(--red);
+}
+header .navbar a {
+    font-size: 2rem;
+    margin-left: 2rem; /* espaçamento do menu de navegação */
+}
+header .navbar a:hover { /* coloração do menu ao passar o mouse */
+    color: var(--red);
+}
+
+#menu-bar {
+    font-size: 3rem;
+    cursor: pointer;
+    color: #666;
+    border: .1rem solid #666;
+    border-radius: .3rem;
+    padding: .5rem 1.5rem;
+    display: none;
+}
+
+.inicio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+}
+.inicio .conteudo {
+    flex: 1 1 40rem;
+    padding-top: 6.5rem; /* espaçamento do conteudo da pagina */
+}
+.inicio .conteudo img {
+    width: 100%;
+    padding: 1rem;
+    animation: float 3s linear infinite;
+}
+@keyframes float{ /*Rotação/Levitação da Imagem central */
+    0%, 100%{
+    transform: translateY(0rem);
+    }
+    50%{
+    transform: translateY(3rem);
+    }
+}
+
+.inicio .conteudo h3{
+    font-size: 5rem;
+    color: #333;
+}
+
+.inicio .conteudo p {
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cabecalho {
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: #666;
+}
+.cabecalho span {
+   color: var(--red);
 }
