@@ -30,7 +30,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: royalblue; 
+  background-color: #e79c2c; 
   padding: 1.5rem 9%;
   box-shadow: 0 .5rem 1rem rgba(0,0,0.1);
 }
@@ -68,7 +68,7 @@ header .navbar a:hover { /* coloração do menu ao passar o mouse */
     gap: 1.5rem;
     min-height: 100vh;
     align-items: center;
-    background-color: aquamarine;
+    background: linear-gradient(#ff3838, #d2e712);
     background-size: cover;
     background-position: center;
 }
@@ -76,7 +76,7 @@ header .navbar a:hover { /* coloração do menu ao passar o mouse */
     flex: 1 1 40rem;
     padding-top: 6.5rem; /* espaçamento do conteudo da pagina */
 }
-.inicio .conteudo img {
+.inicio .imagem img {
     width: 100%;
     padding: 1rem ;
     animation: float 3s linear infinite;
@@ -91,7 +91,7 @@ header .navbar a:hover { /* coloração do menu ao passar o mouse */
 }
 
 .inicio .conteudo h3{
-    font-size: 5rem;
+    font-size: 4rem;
     color: #333;
 }
 
@@ -172,12 +172,13 @@ header .navbar a:hover { /* coloração do menu ao passar o mouse */
 .icons .box {
     flex: 1 1 25rem;
     padding: 1rem;
-    text-align: center;
+    text-align: center; 
 }
 .icons .box img {
     border-radius: 50%;
     border: 1rem solid #fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+    background-color: #d2e712;
 }
 .icons .box h3 {
     font-size: 3rem;
