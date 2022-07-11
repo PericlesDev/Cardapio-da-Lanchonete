@@ -1,6 +1,6 @@
 <h1 align="center">Lanchonete JelynBurguer</h1>
 
-Cardápio virtual de uma Hamburgueria contendo sessões que englobam popularidade e familiaridade entre os pedidos.
+<p align="center">Cardápio virtual de uma Hamburgueria contendo sessões que englobam popularidade e familiaridade entre os pedidos.</p>
 
 
 <h3>🍽Front-end🍽</h3>
