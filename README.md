@@ -1,40 +1,32 @@
 <h1 align="center">Lanchonete JelynBurguer</h1>
 
-<p align="center">Cardápio virtual de uma Hamburgueria contendo sessões que englobam popularidade e familiaridade entre os pedidos.</p>
+<a href="https://jelynburguer-website.netlify.app/"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a> ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 
-<h3>🍽Front-end🍽</h3>
+                  
+<h2>Descrição do Projeto</h2>
+<p>Cardápio virtual de uma Hamburgueria contendo sessões que englobam popularidade e familiaridade entre os pedidos.</p>
 
-<h2 align="center">🍔Inicio🍔</h2>
+<h1 align="center"><img alt="JellynBurguer" src="https://user-images.githubusercontent.com/91090285/193645277-239702f4-b5a3-4927-8a23-5b8636485da6.png" width=1000px" /></h1>
+
+<h2>Tecnologias utilizadas</h2>
 
 <ul>
-<li>🌭Logo: marca pessoal.🌭</li>
-<li>🍕Fundo de tela: background: linear-gradient(#ff3838, #d2e712)🍕</li>
-<li>🍞Animação: @keyframes float.🍞</li>
-<li>🍪Titulo/Conteúdo do Cabeçalho: simbolizando o Logotipo do E-commerce.🍪</li>
+<li>🌭HTML5</li>
+<li>🍕CSS3</li>
+<li>🍞Javascript</li>
 </ul>
 
-<h1 align="center">
-    <img alt="frontBurguer" src="/images/JelynBurguer.png" width=1000px" />
-</h1>
+<h2>Biblioteca e Font utilizada</h2>
 
+Font-Awesome(Icons). https://fontawesome.com/
 
-<h3>👩‍🍳Back-end👩‍🍳</h3>
+- Nunito: `@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap");`
 
-<ul>
-<li>🍟Comentários servindo de guia(Documentação).🍟</li>
-<li>🧀Menu para navegações(Header).🧀</li>
-<li>🥞Seções que demarcam o projeto em partes(Section).🥞</li>
-<li>🎂Bibliotécas: Font-Awesome(Icons).🎂</li>
-    https://fontawesome.com/
-
-  <h1 align="center">
-    <img alt="backBurguer" src="/images/backBurguer.png" width=1000px" />
-</h1>
-
-
-<h4 align="center"> 🚧  Sistema de Carrinho de Compras 🚀 Em construção...  🚧</h4>
 <hr>
+<h4 align="center"> 🚧 Em construção... 🚧</h4>
+    
+- [ ] Sistema de Carrinho de Compras  
 - [ ] Cadastro de usuário<br>
 - [ ] Cadastro de cliente<br>
 - [ ] Cadastro de produtos<br>
